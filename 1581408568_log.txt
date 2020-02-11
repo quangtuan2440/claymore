@@ -1,0 +1,61 @@
+15:09:28:538	856180c0	Check and remove old log files...
+15:09:28:539	856180c0	args: -epool ssl://asia1.ethermine.org:5555 -ewal 0xFC3666bBCd7BA58eE6f358cE22f1e0344E98AD9b -epsw x 
+15:09:28:539	856180c0	
+15:09:28:539	856180c0	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+15:09:28:539	856180c0	บ                Claymore's Dual GPU Miner - v15.0               บ
+15:09:28:539	856180c0	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+15:09:28:539	856180c0	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+15:09:28:539	856180c0	
+15:09:28:539	856180c0	b755 
+15:09:28:740	856180c0	ETH: 1 pool is specified
+15:09:28:740	856180c0	Main Ethereum pool is asia1.ethermine.org:5555
+15:09:28:740	856180c0	DCR: 0 pool is specified
+15:09:28:756	856180c0	OpenCL platform: NVIDIA CUDA
+15:09:28:756	856180c0	AMD OpenCL platform not found 
+15:09:28:759	856180c0	CUDA initializing...
+
+15:09:28:760	856180c0	NVIDIA Cards available: 1 
+15:09:28:760	856180c0	CUDA Driver Version/Runtime Version: 10.2/8.0
+15:09:28:760	856180c0	GPU #0: GeForce GTX 960M, 4046 MB available, 5 compute units, capability: 5.0  (pci bus 1:0:0)
+15:09:28:760	856180c0	Total cards: 1 
+15:09:32:767	856180c0	NVML version: 10.440.59
+15:09:32:773	856180c0	NVML: cannot get fan speed, error 3
+15:09:32:833	677fe700	ETH: Stratum - connecting to 'asia1.ethermine.org' <172.65.231.156> port 5555 (SSL/TLS)
+15:09:32:927	856180c0	No pool specified for Decred! Ethereum-only mining mode is enabled
+15:09:32:927	856180c0	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+15:09:32:927	856180c0	ETH: eth-proxy stratum mode
+15:09:32:927	856180c0	Watchdog enabled
+15:09:32:928	856180c0	Remote management (READ-ONLY MODE) is enabled on port 3333
+15:09:32:928	856180c0	
+15:09:32:993	677fe700	cert subject: /CN=ssl935420.cloudflaressl.com
+15:09:32:993	677fe700	cert issuer: /C=GB/ST=Greater Manchester/L=Salford/O=COMODO CA Limited/CN=COMODO ECC Domain Validation Secure Server CA 2
+15:09:32:993	677fe700	SSL/TLS encryption is enabled
+15:09:32:993	677fe700	Pool certificate verified successfully
+15:09:32:993	677fe700	sent: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xFC3666bBCd7BA58eE6f358cE22f1e0344E98AD9b", "x"], "id": 2, "method": "eth_submitLogin"}
+
+15:09:32:993	677fe700	ETH: Stratum - Connected (asia1.ethermine.org:5555) (SSL/TLS)
+15:09:33:084	677fe700	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+15:09:33:085	677fe700	ETH: Authorized
+15:09:33:085	677fe700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+15:09:33:176	677fe700	buf: {"id":0,"jsonrpc":"2.0","result":["0x3f95407b3049ef2b1bad426eb2a79d5008f7b44d4f3fe540be95d54470977103","0x5b8e1df4d6e7432d1b3f0e4e6be8f1cf1f5dc2be0ccf7938389550d12347c581","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x905b1f"]}
+
+15:09:33:227	6cfdd700	Setting DAG epoch #315(3.46GB)...
+15:09:34:745	82c01700	NVML: cannot get fan speed, error 3
+15:09:35:595	677fe700	buf: {"id":0,"jsonrpc":"2.0","result":["0x31e9ff89ce5a998cae93185d879f7af2f55a14ee9bd396ade83b97c7644791a2","0x5b8e1df4d6e7432d1b3f0e4e6be8f1cf1f5dc2be0ccf7938389550d12347c581","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x905b1f"]}
+
+15:09:35:595	677fe700	ETH: 02/11/20-15:09:35 - New job from asia1.ethermine.org:5555
+15:09:35:595	677fe700	target: 0x0000000112e0be82 (diff: 4000MH), epoch 315(3.46GB)
+15:09:35:595	677fe700	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+15:09:35:595	677fe700	ETH: GPU0 0.000 Mh/s
+15:09:36:525	6cfdd700	Setting DAG epoch #315 for GPU0
+15:09:36:525	6cfdd700	Create GPU buffer for GPU0
+15:09:36:531	6cfdd700	CUDA error - cannot allocate big buffer for DAG. Check readme.txt for possible solutions.
+15:09:37:148	856180c0	Quit signal received...
+15:09:37:159	83402700	NVML: cannot get fan speed, error 3
+15:09:37:259	83402700	Quit, please wait...
+15:09:37:280	82c01700	Quit signal received...
+15:09:39:531	6cfdd700	Set global fail flag, failed GPU0
+15:09:39:531	6cfdd700	GPU 0 failed
+15:09:39:767	83402700	NVML: cannot get fan speed, error 3

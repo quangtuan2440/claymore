@@ -1,0 +1,6 @@
+# WARNING! Remove "#" characters to enable lines, with "#" they are disabled and will be ignored by miner! Check README for details.
+
+#POOL: europe.ethash-hub.miningpoolhub.com:20535, WALLET: btw-media.btw-media, PSW: x, ESM: 2, ALLPOOLS: 0
+#POOL: europe.ethash-hub.miningpoolhub.com:20535, WALLET: btw-media.btw-media, PSW: x, ESM: 2, ALLPOOLS: 0
+#POOL: europe.ethash-hub.miningpoolhub.com:20555, WALLET: btw-media.btw-media, PSW: x, ESM: 2, ALLPOOLS: 1, ALLCOINS: 1
+#POOL: eth-eu2.nanopool.org:9999, WALLET: 0xb352fed7d17bc76d2bd8f071d228645bf385764d.dualminer, PSW: x, ESM: 0, ALLPOOLS: 0

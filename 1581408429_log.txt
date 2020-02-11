@@ -1,0 +1,70 @@
+15:07:09:595	296130c0	Check and remove old log files...
+15:07:09:595	296130c0	args: -epool ssl://asia1.ethermine.org -ewal 0xFC3666bBCd7BA58eE6f358cE22f1e0344E98AD9b -epsw x 
+15:07:09:595	296130c0	
+15:07:09:595	296130c0	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+15:07:09:595	296130c0	บ                Claymore's Dual GPU Miner - v15.0               บ
+15:07:09:596	296130c0	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+15:07:09:596	296130c0	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+15:07:09:596	296130c0	
+15:07:09:596	296130c0	b755 
+15:07:09:797	296130c0	ETH: 4 pools are specified
+15:07:09:797	296130c0	Main Ethereum pool is europe.ethash-hub.miningpoolhub.com:20535
+15:07:09:797	296130c0	DCR: 0 pool is specified
+15:07:09:825	296130c0	OpenCL platform: NVIDIA CUDA
+15:07:09:825	296130c0	AMD OpenCL platform not found 
+15:07:09:828	296130c0	CUDA initializing...
+
+15:07:09:828	296130c0	NVIDIA Cards available: 1 
+15:07:09:828	296130c0	CUDA Driver Version/Runtime Version: 10.2/8.0
+15:07:09:829	296130c0	GPU #0: GeForce GTX 960M, 4046 MB available, 5 compute units, capability: 5.0  (pci bus 1:0:0)
+15:07:09:829	296130c0	Total cards: 1 
+15:07:13:835	296130c0	NVML version: 10.440.59
+15:07:13:842	296130c0	NVML: cannot get fan speed, error 3
+15:07:13:897	f7fff700	ETH: Stratum - connecting to 'europe.ethash-hub.miningpoolhub.com' <18.197.166.72> port 20535 (unsecure)
+15:07:13:996	296130c0	No pool specified for Decred! Ethereum-only mining mode is enabled
+15:07:13:997	296130c0	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+15:07:13:997	296130c0	ETH: miner-proxy stratum mode
+15:07:13:997	296130c0	Watchdog enabled
+15:07:13:997	296130c0	Remote management (READ-ONLY MODE) is enabled on port 3333
+15:07:13:997	296130c0	
+15:07:14:183	f7fff700	sent: {"id": 1, "method": "mining.subscribe", "params": []}
+
+15:07:14:184	f7fff700	sent: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+15:07:14:184	f7fff700	sent: {"id": 2, "method": "mining.authorize", "params": ["btw-media.btw-media","x"]}
+
+15:07:14:184	f7fff700	ETH: Stratum - Connected (europe.ethash-hub.miningpoolhub.com:20535) (unsecure)
+15:07:14:478	f7fff700	buf: {"id":1,"result":[[["mining.set_difficulty","deadbeefcafebabee7b5020000000000"],["mining.notify","deadbeefcafebabee7b5020000000000"]],"57fe0bfc",4],"error":null}
+
+15:07:14:762	f7fff700	buf: {"id":null,"method":"mining.notify","params":["8c17","0x0ecf8c0beb2beea1b4754513acabb01798f3a4182cf6813b65ad7490601d1a4e","0x5b8e1df4d6e7432d1b3f0e4e6be8f1cf1f5dc2be0ccf7938389550d12347c581","0x0000000080000000800000008000000080000000800000008000000080000000",true]}
+
+15:07:14:801	212f1700	Setting DAG epoch #315(3.46GB)...
+15:07:15:043	f7fff700	buf: {"id":2,"result":true,"error":null}
+
+15:07:15:043	f7fff700	ETH: Authorized
+15:07:15:354	f7fff700	buf: {"id":null,"method":"mining.notify","params":["8c18","0xcfea558f0c49c4e466d6cc9554ffeb8042195e3b6795559d88248414a060bae7","0x5b8e1df4d6e7432d1b3f0e4e6be8f1cf1f5dc2be0ccf7938389550d12347c581","0x0000000080000000800000008000000080000000800000008000000080000000",true]}
+
+15:07:15:354	f7fff700	ETH: 02/11/20-15:07:15 - New job from europe.ethash-hub.miningpoolhub.com:20535
+15:07:15:354	f7fff700	target: 0x0000000080000000 (diff: 8589MH), epoch 315(3.46GB)
+15:07:15:354	f7fff700	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+15:07:15:354	f7fff700	ETH: GPU0 0.000 Mh/s
+15:07:15:804	26bfc700	NVML: cannot get fan speed, error 3
+15:07:17:159	f7fff700	buf: {"id":null,"method":"mining.notify","params":["8c19","0x055c663ca1455b5dd9dd0a464449df8cdfac50c4a616382a3ec54b80f32dafe6","0x5b8e1df4d6e7432d1b3f0e4e6be8f1cf1f5dc2be0ccf7938389550d12347c581","0x0000000080000000800000008000000080000000800000008000000080000000",true]}
+
+15:07:17:160	f7fff700	ETH: 02/11/20-15:07:17 - New job from europe.ethash-hub.miningpoolhub.com:20535
+15:07:17:160	f7fff700	target: 0x0000000080000000 (diff: 8589MH), epoch 315(3.46GB)
+15:07:17:160	f7fff700	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+15:07:17:160	f7fff700	ETH: GPU0 0.000 Mh/s
+15:07:18:133	212f1700	Setting DAG epoch #315 for GPU0
+15:07:18:133	212f1700	Create GPU buffer for GPU0
+15:07:18:139	212f1700	CUDA error - cannot allocate big buffer for DAG. Check readme.txt for possible solutions.
+15:07:18:804	26bfc700	NVML: cannot get fan speed, error 3
+15:07:18:855	296130c0	Quit signal received...
+15:07:18:865	f55c3700	NVML: cannot get fan speed, error 3
+15:07:18:966	f55c3700	Quit, please wait...
+15:07:19:048	26bfc700	Quit signal received...
+15:07:19:221	2321a700	Quit signal received...
+15:07:21:140	212f1700	Set global fail flag, failed GPU0
+15:07:21:140	212f1700	GPU 0 failed
+15:07:21:372	f55c3700	NVML: cannot get fan speed, error 3
+15:07:21:573	f55c3700	NVML: cannot get fan speed, error 3

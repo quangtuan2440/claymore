@@ -1,0 +1,10 @@
+15:07:55:079	c0de20c0	Check and remove old log files...
+15:07:55:080	c0de20c0	args: -epool ssl://asia1.ethermine.org -ewal 0xFC3666bBCd7BA58eE6f358cE22f1e0344E98AD9b -epsw x 
+15:07:55:080	c0de20c0	
+15:07:55:080	c0de20c0	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+15:07:55:080	c0de20c0	บ                Claymore's Dual GPU Miner - v15.0               บ
+15:07:55:080	c0de20c0	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+15:07:55:080	c0de20c0	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+15:07:55:080	c0de20c0	
+15:07:55:080	c0de20c0	b755 
+15:07:55:281	c0de20c0	ETH: No pools specified! Specify at least one valid pool in "-epool" parameter. 
